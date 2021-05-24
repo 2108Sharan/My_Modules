@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/republic_polytechnic" />
+
+    <TextView
+        android:id="@+id/textModules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:shadowColor="@color/design_default_color_background"
+        android:text="@string/m1"
+        android:textColorLink="@color/design_default_color_background"
+        app:backgroundTint="#13E11B" />
+
+    <Button
+        android:id="@+id/buttonM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m2"
+        app:backgroundTint="#13E11B" />
+
+    <Button
+        android:id="@+id/buttonM3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m3"
+        app:backgroundTint="#13E11B" />
+
+    <Button
+        android:id="@+id/buttonM4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m4"
+        app:backgroundTint="#13E11B" />
+
+    <Button
+        android:id="@+id/buttonM5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m5"
+        app:backgroundTint="#13E11B" />
+
+</LinearLayout>

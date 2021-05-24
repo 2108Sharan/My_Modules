@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="title">DISM YR2 SEM1 MODULES</string>
+    <string name="m1">C203 - Web App Development in PHP</string>
+    <string name="m2">C331 - Digital Security and Forensics</string>
+    <string name="m3">C228 - Operating System Security</string>
+    <string name="m4">C346 - Android Programming</string>
+    <string name="m5">C328 - Intelligent Networks</string>
+    <string name="end">Return</string>
+</resources>
